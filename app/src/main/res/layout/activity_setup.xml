@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/setup_toolbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleTextColor="@color/text_color_login" />
+
+
+        <ProgressBar
+            android:id="@+id/setup_pb"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/setup_toolbar" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle_image_setup"
+            android:layout_width="139dp"
+            android:layout_height="127dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/profile_setup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/setup_toolbar"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/setup_edl_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/setup_margin_start_edl"
+            android:layout_marginTop="@dimen/setup_margin_top_edl"
+            android:layout_marginEnd="@dimen/setup_margin_end_edl"
+            android:hint="@string/setup_ed_hint"
+            app:errorTextColor="@color/colorAccent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/circle_image_setup">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/setup_ed_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/setup_btn_save"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="@dimen/setup_margin_start_btn"
+            android:layout_marginTop="@dimen/setup_margin_top_btn"
+            android:layout_marginEnd="@dimen/setup_margin_end_btn"
+            android:gravity="center"
+            android:text="@string/setup_text_btn"
+            android:textColor="@color/text_color_login"
+            app:cornerRadius="30dp"
+            android:textSize="@dimen/setup_text_size_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/setup_edl_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

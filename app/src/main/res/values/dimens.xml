@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_login">40sp</dimen>
+    <dimen name="loginactivity_marginstart_etl_login">15dp</dimen>
+    <dimen name="loginactivity_marginend_etl_login">15dp</dimen>
+    <dimen name="loginactivity_button_textsize_login">30sp</dimen>
+    <dimen name="loginactivity_button_textsize_newaccount">20sp</dimen>
+
+    <dimen name="loginactivity_button_marginstart_login">50dp</dimen>
+    <dimen name="loginactivity_button_marginend_login">50dp</dimen>
+
+    <dimen name="loginactivity_button_margintop_login">20dp</dimen>
+    <dimen name="loginactivity_button_margintop_newaccount">140dp</dimen>
+    <dimen name="loginactivity_tv_textsize_welcome">60sp</dimen>
+    <dimen name="loginactivity_margintop_etl_login">10dp</dimen>
+    <dimen name="registeractivity_button_textsize_signup">20sp</dimen>
+    <dimen name="radius_btn_login">30dp</dimen>
+    <dimen name="radius_btn_newaccount">30dp</dimen>
+    <dimen name="radius_btn_createnew">30dp</dimen>
+    <dimen name="radius_btn_have_account">30dp</dimen>
+    <dimen name="setup_margin_start_edl">10dp</dimen>>
+    <dimen name="setup_margin_end_edl">10dp</dimen>
+    <dimen name="setup_margin_start_btn">35dp</dimen>
+    <dimen name="setup_margin_end_btn">35dp</dimen>
+    <dimen name="setup_margin_top_btn">20dp</dimen>
+    <dimen name="setup_text_size_btn">18sp</dimen>
+    <dimen name="setup_margin_top_edl">8dp</dimen>
+    <dimen name="margin_fb">20dp</dimen>
+</resources>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#512DA8</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="navigationBarColor">#673AB7</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="text_color_login">#FFFFFF</color>
+    <color name="text_hint_color">#B6B7B9</color>
+    <color name="likeBtnGray">#747474</color>
+    <color name="likeBtnAccent">#FF4081</color>
+
+    
+</resources>
